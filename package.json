@@ -4,7 +4,7 @@
   "description": "![Pipeline](https://github.com/lucasmarques73/node-api-heroku/workflows/Pipeline/badge.svg)",
   "main": "app.js",
   "scripts": {
-    "test": "node app.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/VictorTalge/AplicacaoNodeAula/issues"
   },
-  "homepage": "https://github.com/VictorTalge/AplicacaoNodeAula#readme"
+  "homepage": "https://github.com/VictorTalge/AplicacaoNodeAula#readme",
+  "dependencies": {
+    "jest": "^27.2.0"
+  }
 }
